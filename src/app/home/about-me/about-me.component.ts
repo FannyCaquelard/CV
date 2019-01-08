@@ -7,7 +7,7 @@ import { LanguageService } from '@app/core/language.service';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-  constructor(private languageService: LanguageService) {}
+  constructor(public languageService: LanguageService) {}
 
   ngOnInit() {}
 }
