@@ -17,11 +17,10 @@
 @import "theme/theme";
 
 @font-face {
-  font-family: "Qanelas-UltraLight";
-  src: url(./assets/QanelasSoft-UltraLight.otf) format("utf-8");
+  font-family: "aleo";
+  src: url(assets/Aleo-Light.otf);
 }
 
-@font-face {
-  font-family: "Qanelas-ExtraBold";
-  src: url(./assets/QanelasSoft-ExtraBold.otf) format("utf-8");
+* {
+  font-family: "aleo";
 }
