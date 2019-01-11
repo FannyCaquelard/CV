@@ -1,6 +1,1 @@
-<div *ngIf="this.languageService.subjectLang.getValue().match('fr')">
-  <img class="img-fluid mt-2 rounded w-100" src="assets/img/background_fr.svg" />
-</div>
-<div *ngIf="this.languageService.subjectLang.getValue().match('en')">
-  <img class="img-fluid mt-2 rounded w-100" src="assets/img/background_en.svg" />
-</div>
+<img appLoadImage src="assets/img/background_{{ this.languageService.subjectLang.getValue() }}.svg" />

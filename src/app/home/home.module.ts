@@ -10,10 +10,11 @@ import { QuoteService } from './quote.service';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoadImageDirective } from './load-image.directive';
 
 @NgModule({
   imports: [CommonModule, TranslateModule, CoreModule, SharedModule, HomeRoutingModule],
-  declarations: [HomeComponent, AboutMeComponent, ExperienceComponent, ContactComponent],
+  declarations: [HomeComponent, AboutMeComponent, ExperienceComponent, ContactComponent, LoadImageDirective],
   providers: [QuoteService]
 })
 export class HomeModule {}

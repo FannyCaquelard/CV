@@ -14,7 +14,7 @@
    viewBox="0 0 126.5 86.000005"
    id="svg15048"
    sodipodi:docname="background_fr.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.0 r15299">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,17 +24,18 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1028"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
      id="namedview15050"
      showgrid="true"
-     inkscape:zoom="15.104"
-     inkscape:cx="61.66617"
-     inkscape:cy="54.455988"
+     inkscape:zoom="7.552"
+     inkscape:cx="61.908291"
+     inkscape:cy="38.544388"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg15048">
+     inkscape:current-layer="svg15048"
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
        id="grid1828" />
@@ -2129,7 +2130,7 @@
      height="86.026382"
      ry="0"
      id="rect14292"
-     style="fill:#1482c7;stroke-width:0.20865032" />
+     style="fill:#95a78d;stroke-width:0.20865032;fill-opacity:1" />
   <g
      transform="matrix(0.40567068,0,0,0.29174454,-35.629189,-23.815952)"
      id="g14300">

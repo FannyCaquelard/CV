@@ -13,21 +13,52 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item clickable"><a class="nav-link" (click)="scroll(about)" translate>NAVBAR_ABOUT</a></li>
       <li class="nav-item clickable">
-        <a class="nav-link" (click)="scroll(experience)" translate>NAVBAR_EXPERIENCE</a>
+        <a
+          class="nav-link"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          (click)="scroll(about)"
+          translate
+          >NAVBAR_ABOUT</a
+        >
       </li>
-      <li class="nav-item clickable"><a class="nav-link" (click)="scroll(contact)" translate>NAVBAR_CONTACT</a></li>
+      <li class="nav-item clickable">
+        <a
+          class="nav-link"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          (click)="scroll(experience)"
+          translate
+          >NAVBAR_EXPERIENCE</a
+        >
+      </li>
+      <li class="nav-item clickable">
+        <a
+          class="nav-link"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          (click)="scroll(contact)"
+          translate
+          >NAVBAR_CONTACT</a
+        >
+      </li>
     </ul>
   </div>
 </nav>
 <div class="ml-2 mr-2">
   <div class="btn-group btn-group-toggle mt-2">
-    <label class="btn btn-secondary" [ngClass]="{ active: radioChecked }">
+    <label class="btn" [ngClass]="{ 'border-bottom': radioChecked }">
       <input type="radio" name="fr" id="french" (click)="updateLanguage($event.target.name)" />
       <span translate>LANGUAGE_FRENCH</span>
     </label>
-    <label class="btn btn-secondary" [ngClass]="{ active: !radioChecked }">
+    <label class="btn" [ngClass]="{ 'border-bottom': !radioChecked }">
       <input type="radio" name="en" id="english" (click)="updateLanguage($event.target.name)" />
       <span translate>LANGUAGE_ENGLISH</span>
     </label>

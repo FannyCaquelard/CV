@@ -36,9 +36,11 @@ export class HomeComponent implements OnInit {
   }
 
   updateLanguage(target: any) {
-    this.languageService.subjectLang.next(target);
-    this.radioChecked = !this.radioChecked;
-    this.i18nService.language = target;
+    if (!this.languageService.subjectLang.getValue().match(target)) {
+      this.languageService.subjectLang.next(target);
+      this.radioChecked = !this.radioChecked;
+      this.i18nService.language = target;
+    }
   }
 
   scroll(target: any) {
