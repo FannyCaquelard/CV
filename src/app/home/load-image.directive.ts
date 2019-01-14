@@ -10,11 +10,7 @@ export class LoadImageDirective {
   constructor(private renderer: Renderer2, private el: ElementRef, private languageService: LanguageService) {}
 
   ngOnInit() {
-    fromEvent(this.el.nativeElement, 'load')
-      .pipe(first())
-      .subscribe(() => this.setImage());
-
-    this.setPlaceholder();
+    this.subscribeChange();
   }
 
   private setPlaceholder() {
@@ -30,4 +26,14 @@ export class LoadImageDirective {
     );
     this.renderer.setAttribute(this.el.nativeElement, 'class', 'w-100 img-fluid mt-2 rounded');
   };
+
+  subscribeChange() {
+    this.languageService.subjectLang.subscribe(() => {
+      fromEvent(this.el.nativeElement, 'load')
+        .pipe(first())
+        .subscribe(() => this.setImage());
+
+      this.setPlaceholder();
+    });
+  }
 }
