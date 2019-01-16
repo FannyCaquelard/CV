@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent implements OnInit {
+  modalPicture: string = '';
+
   constructor() {}
 
   ngOnInit() {}
+
+  test(leisureTitle: string) {
+    this.modalPicture = leisureTitle;
+  }
 }
