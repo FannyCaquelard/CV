@@ -1,5 +1,29 @@
+$bg-darkblue: #52796f;
+
 .logo {
   width: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_nav_card {
+  height: 40px;
+  width: 40px;
+  margin-top: 4%;
+}
+
+.card {
+  border-radius: 1.25rem;
+  border: none;
+  background-image: linear-gradient(to left, #d7d2cc 0%, #304352 100%);
+}
+
+.position_logos {
+  float: right;
 }
 
 q {
@@ -15,18 +39,50 @@ q {
 .navbar-brand {
   font-size: 2.25rem;
   white-space: pre-wrap;
+  color: #fff;
 }
 
 .navbar-nav .nav-link {
   font-size: 1.25rem;
 }
 
-@media (max-width: 478px) {
+@media (max-width: 340px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  .logo_nav_card {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .position_logos {
+    float: left !important;
+  }
+}
+
+@media (max-width: 574px) and (min-width: 342px) {
   .navbar-brand {
     font-size: 1.5rem;
+  }
+  .position_logos {
+    float: left !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .position_logos {
+    float: right;
+  }
+  .logo_nav_card {
+    height: 25px;
+    width: 25px;
+    margin-top: 3%;
+  }
+
+  .navbar-brand {
+    font-size: 1.25rem;
   }
 }
 
 .bg-darkblue {
-  background-color: #7a6c5d;
+  background-color: $bg-darkblue;
 }

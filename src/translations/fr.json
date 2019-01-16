@@ -4,5 +4,15 @@
   "NAVBAR_EXPERIENCE": "Expérience",
   "NAVBAR_CONTACT": "Contact",
   "LANGUAGE_FRENCH": "Français",
-  "LANGUAGE_ENGLISH": "Anglais"
+  "LANGUAGE_ENGLISH": "Anglais",
+  "BACCALAUREAT_TITLE": "Lycée Henri Moissan",
+  "BACCALAUREAT": "Baccalauréat Scientifique spécialité SVT",
+  "BACCALAUREAT_LOCATION": "Meaux",
+  "IUT_TITLE": "IUT Informatique",
+  "IUT": "Contenu de la formation : Programmation, Développement, Gestion de projet, Management, Communication, Anglais.",
+  "IUT_LOCATION": "Lannion",
+  "ESIR_TITLE": "Ecole Supérieure d'Ingénieurs de Rennes (ESIR)",
+  "ESIR": "Cursus ingénieur en spécialité Languages et Systèmes de l'Information (LSI).",
+  "ESIR_LOCATION": "Rennes",
+  "DIPLOMA": "Obtention du diplôme d'ingénieur"
 }
