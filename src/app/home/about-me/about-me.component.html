@@ -87,3 +87,54 @@
     </div>
   </div>
 </div>
+<div class="card"></div>
+
+<h3 class="text-center" translate>LEISURE</h3>
+<ol class="ProgressBar">
+  <li class="ProgressBar-step">
+    <svg class="ProgressBar-icon" data-toggle="modal" data-target="#exampleModal" (click)="test('headphone')">
+      <use xlink:href="#checkmark-bold" />
+    </svg>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/headphone.svg" height="30" width="30"/></span>
+  </li>
+  <li class="ProgressBar-step">
+    <svg class="ProgressBar-icon" data-toggle="modal" data-target="#exampleModal" (click)="test('airplane')">
+      <use xlink:href="#checkmark-bold" />
+    </svg>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/airplane.svg" height="30" width="30"/></span>
+  </li>
+  <li class="ProgressBar-step">
+    <svg class="ProgressBar-icon" data-toggle="modal" data-target="#exampleModal" (click)="test('watch')">
+      <use xlink:href="#checkmark-bold" />
+    </svg>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/watch.svg" height="30" width="30"/></span>
+  </li>
+  <li class="ProgressBar-step">
+    <svg class="ProgressBar-icon" data-toggle="modal" data-target="#exampleModal" (click)="test('football')">
+      <use xlink:href="#checkmark-bold" />
+    </svg>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/football.svg" height="30" width="30"/></span>
+  </li>
+</ol>
+
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-confirm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="icon-box"><img src="assets/img/{{ modalPicture }}_white.svg" /></div>
+        <h4 class="modal-title">Awesome!</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center">Your booking has been confirmed. Check your email for detials.</p>
+      </div>
+      <div class="modal-footer"><button class="btn btn-success btn-block" data-dismiss="modal">OK</button></div>
+    </div>
+  </div>
+</div>

@@ -7,7 +7,13 @@ import { LanguageService } from '@app/core/language.service';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
+  modalPicture: string = '';
+
   constructor(public languageService: LanguageService) {}
 
   ngOnInit() {}
+
+  test(leisureTitle: string) {
+    this.modalPicture = leisureTitle;
+  }
 }

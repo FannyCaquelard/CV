@@ -64,3 +64,171 @@ $bg-darkblue: #52796f;
     margin-left: 7%;
   }
 }
+
+$gray: #9f9fa3;
+$blue: #00637c;
+$white: #dbf1ff;
+
+.text-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProgressBar {
+  margin: 0 auto;
+  padding: 2em 0 3em;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProgressBar-step {
+  text-align: center;
+  position: relative;
+  width: 100%;
+
+  &:before,
+  &:after {
+    content: "";
+    height: 0.5em;
+    background-color: $gray;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.25s ease-out;
+  }
+
+  &:first-child:before,
+  &:first-child:after {
+    display: none;
+  }
+
+  &:after {
+    background-color: $blue;
+    width: 0%;
+  }
+
+  &.is-complete + &.is-current:after,
+  &.is-complete + &.is-complete:after {
+    width: 100%;
+  }
+}
+
+.ProgressBar-icon {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: $gray;
+  fill: $gray;
+  border-radius: 50%;
+  padding: 0.5em;
+  max-width: 100%;
+  z-index: 10;
+  position: relative;
+  transition: all 0.25s ease-out;
+
+  .is-current & {
+    fill: $blue;
+    background-color: $blue;
+  }
+
+  .is-complete & {
+    fill: $white;
+    background-color: $blue;
+  }
+}
+
+.ProgressBar-stepLabel {
+  display: block;
+  text-transform: uppercase;
+  color: $gray;
+  position: absolute;
+  padding-top: 0.5em;
+  width: 100%;
+  transition: all 0.25s ease-out;
+}
+
+.li .reveal {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-confirm {
+  color: #636363;
+  width: 50%;
+}
+.modal-confirm .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-confirm .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-confirm .form-control,
+.modal-confirm .btn {
+  min-height: 40px;
+  border-radius: 3px;
+}
+.modal-confirm .close {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.modal-confirm .modal-footer {
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.modal-confirm .icon-box {
+  color: #fff;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -70px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background: #82ce34;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-confirm .icon-box i {
+  font-size: 58px;
+  position: relative;
+  top: 3px;
+}
+.modal-confirm.modal-dialog {
+  margin-top: 80px;
+  width: auto;
+}
+.modal-confirm .btn {
+  color: #fff;
+  border-radius: 4px;
+  background: #82ce34;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border: none;
+}
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+  background: #6fb32b;
+  outline: none;
+}
