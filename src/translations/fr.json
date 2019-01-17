@@ -15,5 +15,20 @@
   "ESIR": "Cursus ingénieur en spécialité Languages et Systèmes de l'Information (LSI).",
   "ESIR_LOCATION": "Rennes",
   "DIPLOMA": "Obtention du diplôme d'ingénieur",
-  "LEISURE": "Loisirs"
+  "SKILLS": "Compétences",
+  "SKILLS_FIRST": "Développement",
+  "SKILLS_SECOND": "Fonctionnel",
+  "SKILLS_THIRD": "Bureautique",
+  "SKILLS_FOURTH": "Bases de données",
+  "SKILLS_FIFTH": "REST",
+  "SKILLS_SIXTH": "Responsive",
+  "LEISURE": "Loisirs",
+  "LEISURE_headphone_TITLE": "Musique",
+  "LEISURE_headphone_TEXT": "Journaliste pour un webzine de musique appelé EDM France. Report de festivals, soirées et de concerts. Production de musique sur FL Studio.",
+  "LEISURE_airplane_TITLE": "Voyages",
+  "LEISURE_airplane_TEXT": "Maroc, Turquie, Sénégal, Martinique, Cuba, Montréal, Toronto, Niagara Falls, Los Angeles, Las Vegas, San Francisco, New York, Miami, Allemagne, Angleterre, Irelande, Italie, Sardaigne, Lanzarote",
+  "LEISURE_watch_TITLE": "Montres",
+  "LEISURE_watch_TEXT": "Passionné de montres j'ai précédemment écrit pour un site appelé Le Petit Poussoir. Si vous voulez me faire un petit cadeau je serai preneur d'une Patek Philippe 5712R/001 ou d'une RM 19-02",
+  "LEISURE_football_TITLE": "Sport",
+  "LEISURE_football_TEXT": "Du foot au judo en passant par l'athlétisme, j'ai pu toucher à bien des sports."
 }
