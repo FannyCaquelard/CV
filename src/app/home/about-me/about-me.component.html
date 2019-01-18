@@ -93,33 +93,61 @@
     <div class="card-title"><h3 class="font-weight-bold text-center" translate>SKILLS</h3></div>
     <div class="card-text mt-2 ml-2 mr-2">
       <div class="row">
-        <div class="card roundCard bg-grey col-lg- col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3">
-          <img class="mt-3" src="assets/img/development.svg" />
+        <div
+          class="card clickable roundCard bg-grey col-lg- col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          (click)="setModalCardText('development')"
+        >
+          <img src="assets/img/development.svg" />
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FIRST</span></div>
         </div>
-        <div class="card roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3">
-          <img class="mt-3" src="assets/img/fonctionnel.svg" />
+        <div
+          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          (click)="setModalCardText('fonctionnel')"
+        >
+          <img src="assets/img/fonctionnel.svg" />
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_SECOND</span></div>
         </div>
-        <div class="card roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-11 mt-3">
-          <img class="mt-3" src="assets/img/bureautique.svg" />
+        <div
+          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-11 mt-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          (click)="setModalCardText('bureautique')"
+        >
+          <img src="assets/img/bureautique.svg" />
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_THIRD</span></div>
         </div>
       </div>
-      <div class="card-text mt-2 ml-2 mr-2">
-        <div class="row">
-          <div class="card roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3">
-            <img class="mt-3" src="assets/img/bdd.svg" />
-            <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FOURTH</span></div>
-          </div>
-          <div class="card roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3">
-            <img class="mt-3" src="assets/img/rest.svg" />
-            <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FIFTH</span></div>
-          </div>
-          <div class="card roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-11 mt-3">
-            <img class="mt-3" src="assets/img/responsive.svg" />
-            <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_SIXTH</span></div>
-          </div>
+      <div class="row">
+        <div
+          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          (click)="setModalCardText('bdd')"
+        >
+          <img src="assets/img/bdd.svg" />
+          <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FOURTH</span></div>
+        </div>
+        <div
+          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          (click)="setModalCardText('rest')"
+        >
+          <img src="assets/img/rest.svg" />
+          <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FIFTH</span></div>
+        </div>
+        <div
+          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-11 mt-3"
+          data-toggle="modal"
+          data-target="#exampleModal"
+          (click)="setModalCardText('responsive')"
+        >
+          <img src="assets/img/responsive.svg" />
+          <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_SIXTH</span></div>
         </div>
       </div>
     </div>
@@ -129,30 +157,72 @@
 <h3 class="font-weight-bold text-center mt-2" translate>LEISURE</h3>
 <ol class="ProgressBar">
   <li class="ProgressBar-step">
-    <svg class="ProgressBar-icon clickable" data-toggle="modal" data-target="#exampleModal" (click)="test('headphone')">
+    <svg
+      class="ProgressBar-icon clickable"
+      data-toggle="modal"
+      data-target="#leisureModal"
+      (click)="setModalText('headphone')"
+    >
       <use xlink:href="#checkmark-bold" />
     </svg>
     <span class="ProgressBar-stepLabel"><img src="assets/img/headphone.svg" height="30" width="30"/></span>
   </li>
   <li class="ProgressBar-step">
-    <svg class="ProgressBar-icon clickable" data-toggle="modal" data-target="#exampleModal" (click)="test('airplane')">
+    <svg
+      class="ProgressBar-icon clickable"
+      data-toggle="modal"
+      data-target="#leisureModal"
+      (click)="setModalText('airplane')"
+    >
       <use xlink:href="#checkmark-bold" />
     </svg>
     <span class="ProgressBar-stepLabel"><img src="assets/img/airplane.svg" height="30" width="30"/></span>
   </li>
   <li class="ProgressBar-step">
-    <svg class="ProgressBar-icon clickable" data-toggle="modal" data-target="#exampleModal" (click)="test('watch')">
+    <svg
+      class="ProgressBar-icon clickable"
+      data-toggle="modal"
+      data-target="#leisureModal"
+      (click)="setModalText('watch')"
+    >
       <use xlink:href="#checkmark-bold" />
     </svg>
     <span class="ProgressBar-stepLabel"><img src="assets/img/watch.svg" height="30" width="30"/></span>
   </li>
   <li class="ProgressBar-step">
-    <svg class="ProgressBar-icon clickable" data-toggle="modal" data-target="#exampleModal" (click)="test('football')">
+    <svg
+      class="ProgressBar-icon clickable"
+      data-toggle="modal"
+      data-target="#leisureModal"
+      (click)="setModalText('football')"
+    >
       <use xlink:href="#checkmark-bold" />
     </svg>
     <span class="ProgressBar-stepLabel"><img src="assets/img/football.svg" height="30" width="30"/></span>
   </li>
 </ol>
+
+<div
+  class="modal fade"
+  id="leisureModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="leisureModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-confirm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="icon-box"><img src="assets/img/{{ modalPicture }}_white.svg" /></div>
+        <h4 class="modal-title" translate>LEISURE_{{ modalPicture }}_TITLE</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center" translate>LEISURE_{{ modalPicture }}_TEXT</p>
+      </div>
+      <div class="modal-footer"><button class="btn btn-success btn-block" data-dismiss="modal">OK</button></div>
+    </div>
+  </div>
+</div>
 
 <div
   class="modal fade"
@@ -165,11 +235,11 @@
   <div class="modal-dialog modal-confirm">
     <div class="modal-content">
       <div class="modal-header">
-        <div class="icon-box"><img src="assets/img/{{ modalPicture }}_white.svg" /></div>
-        <h4 class="modal-title" translate>LEISURE_{{ modalPicture }}_TITLE</h4>
+        <div class="icon-box"><img src="assets/img/{{ modalCard }}_white.svg" height="50" width="50" /></div>
+        <h4 class="modal-title" translate>SKILLS_{{ modalCard }}_TITLE</h4>
       </div>
       <div class="modal-body">
-        <p class="text-center" translate>LEISURE_{{ modalPicture }}_TEXT</p>
+        <p class="text-center" translate>SKILLS_{{ modalCard }}_TEXT</p>
       </div>
       <div class="modal-footer"><button class="btn btn-success btn-block" data-dismiss="modal">OK</button></div>
     </div>

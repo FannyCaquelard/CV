@@ -9,11 +9,17 @@ import { LanguageService } from '@app/core/language.service';
 export class AboutMeComponent implements OnInit {
   modalPicture: string = '';
 
+  modalCard: string = '';
+
   constructor(public languageService: LanguageService) {}
 
   ngOnInit() {}
 
-  test(leisureTitle: string) {
+  setModalCardText(cardText: string) {
+    this.modalCard = cardText;
+  }
+
+  setModalText(leisureTitle: string) {
     this.modalPicture = leisureTitle;
   }
 }

@@ -1,5 +1,5 @@
-<div class="card ml-2 mr-2 mt-2 shadow bg-white ">
-  <div class="card-body">
+<div class="card ml-2 mr-2 mt-2 shadow bg-white">
+  <div class="card-body" #top>
     <div class="row">
       <div class="title col-xs-6 col-sm-6 col-md-7 col-xl-6 col-lg-6">
         <span class="navbar-brand" href="#" translate>TITLE_NAVBAR</span>
@@ -43,4 +43,11 @@
   <div #about><app-about-me></app-about-me></div>
   <div #experience><app-experience></app-experience></div>
   <div #contact><app-contact></app-contact></div>
+  <img
+    class="center shadow bg-white rounded-circle clickable mt-3 mb-3"
+    src="assets/img/top.svg"
+    height="50"
+    width="50"
+    (click)="scroll(top)"
+  />
 </div>
