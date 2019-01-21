@@ -8,19 +8,19 @@
         <div class="position_logos">
           <img
             class="logo_nav_card about mr-5 clickable"
-            alt="{{ 'NAVBAR_ABOUT' | translate }}"
+            title="{{ 'NAVBAR_ABOUT' | translate }}"
             src="assets/img/user.svg"
             (click)="scroll(about)"
           />
           <img
             class="logo_nav_card experience mr-5 clickable"
-            alt="{{ 'NAVBAR_EXPERIENCE' | translate }}"
+            title="{{ 'NAVBAR_EXPERIENCE' | translate }}"
             src="assets/img/briefcase.svg"
             (click)="scroll(experience)"
           />
           <img
             class="logo_nav_card contact mr-5 clickable"
-            alt="{{ 'NAVBAR_CONTACT' | translate }}"
+            title="{{ 'NAVBAR_CONTACT' | translate }}"
             src="assets/img/message-circle.svg"
             (click)="scroll(contact)"
           />
@@ -49,5 +49,6 @@
     height="50"
     width="50"
     (click)="scroll(top)"
+    title="{{ 'BACK_TOP' | translate }}"
   />
 </div>
