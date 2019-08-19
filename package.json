@@ -18,7 +18,8 @@
     "prettier:check": "prettier --list-different \"./{src,e2e}/**/*.{ts,js,scss}\"",
     "postinstall": "npm run prettier -s",
     "precommit": "pretty-quick --staged",
-    "generate": "ng generate"
+    "generate": "ng generate",
+    "deploy": "ng build --prod --base-href 'https://corentinhcd.github.io/siteAngular/' && angular-cli-ghpages --branch gh-pages"
   },
   "dependencies": {
     "@angular/animations": "^7.0.0",
