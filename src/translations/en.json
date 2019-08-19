@@ -76,5 +76,10 @@
   "VIVERIS_MISSION_3_TOOLS": "Jenkins, Git, Google Analytics ( beginner certification ), JIRA, VSCode.",
   "VIVERIS_MISSION_3_LOCATION": "Saint-Denis",
   "VIVERIS_MISSION_3_TIME": "6 months",
+  "VIVERIS_MISSION_4_TEXT": "Mission 3 : Creation of an authentication POC via smartphone and USB dongle within INWEBO.",
+  "VIVERIS_MISSION_4_CODE": "ExpressJS, ElectronJS, NodeJS, Ionic, NobleJS",
+  "VIVERIS_MISSION_4_TOOLS": "Git, JIRA, VSCode, Confluence, Certificats Windows, Adobe XD",
+  "VIVERIS_MISSION_4_LOCATION": "Paris",
+  "VIVERIS_MISSION_4_TIME": "6 months",
   "BACK_TOP": "Back to top"
 }
