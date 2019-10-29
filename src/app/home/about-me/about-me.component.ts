@@ -7,7 +7,7 @@ import { LanguageService } from '@app/core/language.service';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-  modalPicture: string = 'watch';
+  modalPicture: string = 'sport';
 
   modalCard: string = 'development';
 
