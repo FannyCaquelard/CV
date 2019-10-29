@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="DISKETTE_1_"
+   x="0px"
+   y="0px"
+   width="250"
+   height="250"
+   viewBox="0 0 250 250"
+   enable-background="new 0 0 64 64"
+   xml:space="preserve"
+   sodipodi:docname="bdd.svg"
+   inkscape:version="0.92.0 r15299"><metadata
+     id="metadata9654"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs9652" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview9650"
+     showgrid="false"
+     inkscape:zoom="1.3037281"
+     inkscape:cx="15.877563"
+     inkscape:cy="44.10791"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="DISKETTE_1_" /><g
+     id="DISKETTE"
+     transform="matrix(2.8483281,0,0,2.3102097,33.283,97.79779)"
+     style="stroke-width:0.3898336"><g
+       id="g9646"
+       style="stroke-width:0.3898336"><path
+         d="m 15,25.001 c 0,1.661 1.343,3.007 3,3.007 h 4 V 28 h 18 v 0.008 h 4 c 1.657,0 3,-1.346 3,-3.007 V 19 19 1 H 15 v 18 0 z M 32,5 h 9 v 19 h -9 z m 31.121,5.879 -9,-9 C 53.578,1.336 52.829,1 52,1 h -2 v 15 0 9.001 c 0,3.272 -2.61,5.92 -5.856,5.999 H 17.856 C 14.611,30.922 12,28.273 12,25.001 V 16 16 1 H 3 C 1.343,1 0,2.343 0,4 v 56 c 0,1.657 1.343,3 3,3 h 58 c 1.657,0 3,-1.343 3,-3 V 13 c 0,-0.828 -0.336,-1.578 -0.879,-2.121 z"
+         id="path9644"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:0.3898336" /></g></g></svg>
