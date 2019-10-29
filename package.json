@@ -19,7 +19,7 @@
     "postinstall": "npm run prettier -s",
     "precommit": "pretty-quick --staged",
     "generate": "ng generate",
-    "deploy": "ng build --prod --base-href 'https://corentinhcd.github.io/siteAngular/'",
+    "deploy": "ng build --prod --base-href 'https://fannycaquelard.github.io/CV/'",
     "after:deploy": "angular-cli-ghpages --branch gh-pages"
   },
   "dependencies": {

@@ -1,23 +1,25 @@
-<img appLoadImage src="assets/img/fox_spinner.svg" />
+<!-- <img appLoadImage src="assets/img/fox_spinner.svg" /> -->
 
 <div class="timeline mt-5">
-  <div class="timeline-item" date-is="2012">
-    <h5 class="font-weight-bold" translate>IUT_TITLE</h5>
-    <span translate>IUT</span>
+  <div class="timeline-item" date-is="2016">
+    <h5 class="font-weight-bold" translate>BACCALAUREAT_TITLE</h5>
     <div class="row ml-auto">
-      <img src="assets/img/location.svg" /> <span class="col-10" translate>IUT_LOCATION</span>
+      <img src="assets/img/location.svg" /> <span class="col-10" translate>BACCALAUREAT_LOCATION</span>
     </div>
   </div>
-  <div class="timeline-item" date-is="2014">
-    <h5 class="font-weight-bold" translate>ESIR_TITLE</h5>
-    <span translate>ESIR</span>
+  <div class="timeline-item" date-is="2016 - 2018">
+    <h5 class="font-weight-bold" translate>PREPA_TITLE</h5>
+    <span translate>PREPA</span>
     <div class="row ml-auto">
-      <img src="assets/img/location.svg" /> <span class="col-10" translate>ESIR_LOCATION</span>
+      <img src="assets/img/location.svg" /> <span class="col-10" translate>PREPA_LOCATION</span>
     </div>
   </div>
-  <div class="timeline-item" date-is="2017">
-    <h5 class="font-weight-bold" translate>DIPLOMA</h5>
-    <div class="d-inline-block"><img src="assets/img/user-check.svg" /></div>
+  <div class="timeline-item" date-is="2018 - ...">
+    <h5 class="font-weight-bold" translate>CPE_TITLE</h5>
+    <span translate>CPE</span>
+    <div class="row ml-auto">
+      <img src="assets/img/location.svg" /> <span class="col-10" translate>CPE_LOCATION</span>
+    </div>
   </div>
 </div>
 
@@ -27,7 +29,7 @@
     <div class="card-text mt-2 ml-2 mr-2">
       <div class="row">
         <div
-          class="card clickable roundCard bg-grey col-lg- col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          class="card clickable roundCard bg-grey col-lg-5 col-xl-5 col-md-5 col-12 ml-auto mr-auto col-sm-12 mt-3"
           data-toggle="modal"
           data-target="#exampleModal"
           (click)="setModalCardText('development')"
@@ -36,16 +38,18 @@
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FIRST</span></div>
         </div>
         <div
-          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          class="card clickable roundCard bg-grey col-lg-5 col-xl-5 col-md-5 col-12 ml-auto mr-auto col-sm-12 mt-3"
           data-toggle="modal"
           data-target="#exampleModal"
-          (click)="setModalCardText('fonctionnel')"
+          (click)="setModalCardText('langues')"
         >
-          <img src="assets/img/fonctionnel.svg" />
+          <img src="assets/img/langues.svg" />
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_SECOND</span></div>
         </div>
+      </div>
+      <div class="row">
         <div
-          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-11 mt-3"
+          class="card clickable roundCard bg-grey col-lg-5 col-xl-5 col-md-5 col-12 ml-auto mr-auto col-sm-12 mt-3"
           data-toggle="modal"
           data-target="#exampleModal"
           (click)="setModalCardText('bureautique')"
@@ -53,34 +57,14 @@
           <img src="assets/img/bureautique.svg" />
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_THIRD</span></div>
         </div>
-      </div>
-      <div class="row">
         <div
-          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
+          class="card clickable roundCard bg-grey col-lg-5 col-xl-5 col-md-5 col-12 ml-auto mr-auto col-sm-12 mt-3"
           data-toggle="modal"
           data-target="#exampleModal"
-          (click)="setModalCardText('bdd')"
+          (click)="setModalCardText('teamwork')"
         >
-          <img src="assets/img/bdd.svg" />
+          <img src="assets/img/teamwork.svg" />
           <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FOURTH</span></div>
-        </div>
-        <div
-          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-5 mt-3"
-          data-toggle="modal"
-          data-target="#exampleModal"
-          (click)="setModalCardText('rest')"
-        >
-          <img src="assets/img/rest.svg" />
-          <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_FIFTH</span></div>
-        </div>
-        <div
-          class="card clickable roundCard bg-grey col-lg-3 col-xl-3 col-md-3 col-12 ml-auto mr-auto col-sm-11 mt-3"
-          data-toggle="modal"
-          data-target="#exampleModal"
-          (click)="setModalCardText('responsive')"
-        >
-          <img src="assets/img/responsive.svg" />
-          <div class="card-title"><span class="text-center font-weight-bold" translate>SKILLS_SIXTH</span></div>
         </div>
       </div>
     </div>
@@ -94,11 +78,11 @@
       class="ProgressBar-icon clickable"
       data-toggle="modal"
       data-target="#leisureModal"
-      (click)="setModalText('headphone')"
+      (click)="setModalText('cinema')"
     >
       <use xlink:href="#checkmark-bold" />
     </svg>
-    <span class="ProgressBar-stepLabel"><img src="assets/img/headphone.svg" height="30" width="30"/></span>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/cinema.svg" height="25" width="25"/></span>
   </li>
   <li class="ProgressBar-step">
     <svg
@@ -116,22 +100,22 @@
       class="ProgressBar-icon clickable"
       data-toggle="modal"
       data-target="#leisureModal"
-      (click)="setModalText('watch')"
+      (click)="setModalText('associations')"
     >
       <use xlink:href="#checkmark-bold" />
     </svg>
-    <span class="ProgressBar-stepLabel"><img src="assets/img/watch.svg" height="30" width="30"/></span>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/associations.svg" height="30" width="30"/></span>
   </li>
   <li class="ProgressBar-step">
     <svg
       class="ProgressBar-icon clickable"
       data-toggle="modal"
       data-target="#leisureModal"
-      (click)="setModalText('football')"
+      (click)="setModalText('sport')"
     >
       <use xlink:href="#checkmark-bold" />
     </svg>
-    <span class="ProgressBar-stepLabel"><img src="assets/img/football.svg" height="30" width="30"/></span>
+    <span class="ProgressBar-stepLabel"><img src="assets/img/sport.svg" height="30" width="30"/></span>
   </li>
 </ol>
 
